@@ -1,7 +1,7 @@
 mod libs;
 
 fn main() {
-    let yut = libs::models::yut::Yut::new(false);
+    let yut_set = libs::models::yut_set::YutSet::new();
 
-    println!("{}", yut.throw());
+    println!("{:?}", yut_set.throw());
 }
